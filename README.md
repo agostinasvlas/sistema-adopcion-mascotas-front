@@ -1,12 +1,33 @@
-# React + Vite
+# 🐾 Sistema de Adopción de Mascotas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para gestionar la adopción de mascotas.  
+Permite a los usuarios registrarse, iniciar sesión, ver mascotas disponibles y adoptar.  
+Cada usuario cuenta con un perfil donde puede ver las mascotas que ha adoptado.  
+La creación, actualización y eliminación de mascotas está restringida al administrador.
 
-Currently, two official plugins are available:
+👉 [Demo en Vercel](https://sistema-adopcion-mascotas-front.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Características principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Registro e inicio de sesión de usuarios.
+- Listado de mascotas disponibles para adopción.
+- Adopción de mascotas y visualización en el perfil personal.
+- CRUD de mascotas disponible solo para el administrador.
+- Interfaz responsiva y moderna con Tailwind y DaisyUI.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+**Frontend**
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+
+**Backend** (repositorio separado)
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
